@@ -1,0 +1,285 @@
+<html>
+
+<head>
+    <title>
+        Travel
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .navigation {
+            padding: 10px;
+            background-color: #21435f;
+            color: white;
+            font-weight: bold;
+            opacity: 0.8;
+        }
+
+        #search {
+            border-radius: 10px;
+            border: 0px;
+        }
+
+        .bg-image {
+            background-image: url("bg-image.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .hero {
+            color: white;
+            padding: 100px;
+            position: relative;
+        }
+
+        #Myimg {
+            height: 150px;
+            width: 300px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .card-text {
+            padding: 10px;
+            color: gray;
+            font-size: 13px;
+            height: 70px;
+
+        }
+
+        .last-bg-image {
+            background-image: url("https://media.istockphoto.com/id/956989068/photo/two-deckchairs-under-parasol-in-tropical-beach-at-sunset.jpg?s=612x612&w=0&k=20&c=MwXz_DmwHh4u3k4JD3r0YPRiPn0mHP6GdVSelD9WieM=");
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .hot {
+            padding: 10px;
+
+            color: white;
+            font-weight: bold;
+            opacity: 0.6;
+        }
+
+        #custom-button {
+            color: black;
+            width: 120px;
+            height: 35px;
+            border: 0px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .nav-text .col-log-2 {
+            padding: 5px;
+        }
+
+        .card-first,
+        .card-second,
+        .card-third {
+            margin: auto;
+            height: 150px;
+            width: 300px;
+            border-radius: 6px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: 40px;
+            font-family: 'Pacifico', cursive;
+            color: white;
+        }
+
+        .card-first {
+            background-image: url("https://www.cruisetraveloutlet.com/wp-content/uploads/2020/11/as-senior-group-beach.jpg");
+        }
+
+        .card-second {
+            background-image: url("https://www.royalcaribbean.com/connect/wp-content/uploads/2018/04/RCI_QNLifestyle_Catamaran__C0468-HEADER-EDITED-.jpg ");
+        }
+
+        .card-third {
+
+            background-image: url("https://img.fixthephoto.com/blog/images/gallery/news_image_14028.png");
+        }
+
+        .card-overlay {
+            border-radius: 6px;
+            height: 150px;
+            width: 300px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .bottom-card-overlay {
+            background: rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-image">
+        <div class="row navigation text-center" style="margin: 0px">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row nav-text">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-2">Compare</div>
+                            <div class="col-lg-2">Whishlist</div>
+                            <div class="col-lg-2">Delivery</div>
+                            <div class="col-lg-2">Login</div>
+                            <div class="col-lg-2"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>My Account</p>
+                    </div>
+                    <div class="col-lg-5">
+                        <input type="text" id="search">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </div>
+                    <div class="col-lg-2">
+                        <span class="glyphicon glyphicon-shopping-cart" style="padding-left: 20px"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero" id="hero">
+            <div class="text-center">
+                <h2 style="font-family: 'Pacifico', cursive; font-size: 40px;">Travel </h2>
+
+            </div>
+            <div class="text-center">
+                <p>Home &nbsp; / &nbsp;About us &nbsp;/ &nbsp;Portfolio &nbsp; / &nbsp;Store &nbsp; /&nbsp; Blog
+                    &nbsp;/&nbsp; Contacts&nbsp;</p>
+            </div>
+            <div class="text-center " style="font-family: 'Pacifico', cursive; font-size: 80px;">
+                <p>Bermunda</p>
+            </div>
+            <div class="text-center">
+                <p>Bermuda's pink sand beaches and clear, cerulean blue ocean waters are popular with tourists. <br>
+                    Many of Bermuda's hotels are located along the south shore of the island. <br>
+                    In addition to its beaches, there are a number of sightseeing attractions</p>
+            </div>
+            <div class="text-center">
+                <h4>from $899</h4>
+                <p> 6-7 NIGHTS.AIRFARE.<br> 3-5 STAR HOTELS</p>
+                <button id="custom-button"> Click Here </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="after-img" style="padding: 20px;">
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 text-center">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div><span class="glyphicon glyphicon-phone"></span> Call me </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div style="font-weight: bold; font-size: 20px;"> 800-2345-6789</div>
+                    </div>
+                    <div class="col-lg-5">
+                        <p> Hours 8am-11pm </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1">
+            </div>
+        </div>
+    </div>
+    <div class="add">
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 text-center">
+                <div class="row ">
+                    <div class="col-lg-4">
+                        <div class="card-first">
+                            <div class="card-overlay">
+                                Group <br> Cruise
+                            </div>
+                        </div>
+
+                        <p class="card-text">Group cruises are a great way to spend <br> a vacation with friends, family
+                            or any<br> other
+                            type of group whether large or small.</p>
+                        <h5 class="card-button"><b>READ MORE</b></h5>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-second">
+                            <div class="card-overlay">
+                            Family <br> Travel
+                        </div>
+                        </div>
+                        <p class="card-text">Travel, in the younger sort, is a part<br> of education; in the elder, a
+                            part of
+                            <br>experience.
+                        </p>
+                        <h5 class="card-button"><b>READ MORE</b></h5>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-third">
+                            <div class="card-overlay">
+                            Honeymoon <br> Package
+                            </div>
+                        </div>
+
+                        <p class="card-text">A honeymoon is the second step of marriage.<br>So, I’ll tell you to enjoy
+                            every step of
+                            marriage</p>
+                        <h5 class="card-button"><b>READ MORE</b></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-1">
+            </div>
+        </div>
+    </div>
+    <div class="row HOT">
+        <div>
+            <div class="last">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-lg-10">
+                    <div class="last-bg-image text-center" style="padding: 10px">
+                        <div class="bottom-card-overlay"></div>
+                        <h3 class="text-center" style="padding-top: 19px;"> HOT SUMMER OFFERS </h3>
+                        <h4 class="text-center" style="padding-bottom: 19px; padding-top: 12px;">MORE THAN 10 NEW
+                            DESTINATIONS </h4>
+                        <button id="custom-button"> Click Here </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var heroDIv = document.getElementById('hero');
+            window.addEventListener("scroll", a);
+
+            function a() {
+                let value = window.scrollY;
+                heroDIv.style.right = value * 0.15 + 'px';
+            }
+        </script>
+</body>
+
+</html>
